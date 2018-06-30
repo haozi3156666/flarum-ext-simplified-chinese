@@ -1,0 +1,39 @@
+reflar-polls:
+  admin:
+    permissions:
+      moderate: 编辑 & 删除 投票
+      start: 新建一个投票
+      vote: 投票
+      self_edit: 允许用户编辑自己发布的投票
+  forum:
+    no_permission: 你没有投票的权限
+    poll_ended: 投票已结束
+    days_remaining: "投票结束时间 {time}"
+    public_poll: 查看投票结果
+    votes_modal:
+      title: 投票者
+    modal:
+      submit: 提交
+      no_voters: 暂无投票
+      switch: 允许用户看到具体的投票人
+      min: 你必须包括至少两个答案
+      max: 你最多可以有10个答案
+      include_question: 你必须包括一个问题
+      date_placeholder: 投票截止日期(可选)
+      answer_placeholder: 答案
+      add: 添加一个选项
+      question_placeholder: 问题
+      add_title: 添加一个投票
+      edit_title: 编辑投票
+      answers: 答案
+    moderation:
+      edit: 编辑投票
+      delete: 删除投票
+      delete_confirm: 你确定要删除这个投票吗?
+    composer_discussion:
+      add_poll: 添加一个投票
+      edit: => reflar-polls.forum.moderation.edit
+    tooltip:
+      votes: 票
+      vote: 票
+      badge: 民意调查
