@@ -18,7 +18,7 @@ GitHub: https://github.com/Flarum-Chinese/flarum-ext-simplified-chinese
 
 ### 安装方式
 
-    composer require haozi3156666/flarum-ext-simplified-chinese
+    composer require haolee/flarum-ext-simplified-chinese
 
 
 ### 安装教程
